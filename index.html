@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random art ideas generator | isitPass</title>
+    <meta name="description" content="Get started in isitPass the random art ideas generator.">
+    <meta name="keywords" content="art, random-generator, generator, isit, isitpass, pass, art-generator">
+    <meta name="author" content="isit">
+    <link rel="icon" href="images/pass-icon-browser-logo.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fontss/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+
+
+	<img class="unselectable" id="pass-text-logo" alt="isitPass" src="images/pass-color.png">
+    <p id="desc">Pass can generate you random art ideas in each category.</p>
+	<p id="desc-to">1.0 Official Version</p>
+	<div id="categories">
+	
+			<a href="#" id="all" class="a">All Categories</a>
+			<a href="#" id="cat1" class="a">Fiction</a>
+			<a href="#" id="cat2" class="a">Nature</a>
+			<a href="#" id="cat3" class="a">Cities</a>
+			<a href="#" id="cat4" class="a">Humans</a>
+
+	
+	</div>
+	<div id="ideas">
+		<h2 id="idea">Click on a category to generate an idea</h2>
+	</div>
+	<div>
+		<select id="lang-chse" onchange="redirectToLink(this)">
+			<option value="">English</option>
+			<option value="pages/arabic/index.html">Arabic</option>
+	
+		</select>
+		
+		<a href="pages/simple-mode/index.html" class="smpl-md">Simple Mode</a>
+		<a href="pages/anime-mode/index.html" class="anm-md">Anime Mode</a>
+		<a href="pages/dark-mode/index.html" class="dk-md">Dark Mode</a>
+		
+	</div>
+	<footer>
+		<div class="credits">
+		  <p id="credits-text">All credits to isit© 2023</p>
+
+		</div>
+		
+	  </footer>
+	  
+	<script src="script.js"></script>
+</body>
+</html>

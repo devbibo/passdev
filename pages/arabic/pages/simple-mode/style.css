@@ -1,0 +1,114 @@
+*{
+    font-family: 'Noto Sans Arabic', montserrat;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(to right , red , yellow , white , orange , red);
+    color: orangered;
+}
+#pass-text-logo{
+    width: 400px;
+    margin-top: 100px;
+}
+
+#desc{
+    margin-top: 5px;
+}
+
+#desc-to{
+    font-weight: 800;
+    margin-bottom: 14px;
+}
+
+.a{
+    background: linear-gradient(to right , orange , orangered , red);
+    color: yellow;
+    text-decoration: none;
+    padding: 7px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-radius: 30px;
+    font-weight: 800;
+    transition: 0.6s ease;
+    font-size: 0.9em;
+}
+
+.a:hover{
+font-size: 1.2em;
+color: white;
+}
+
+#idea{
+    background: linear-gradient(to right , yellow , orange , red, orange , yellow);
+    color: yellow;
+    padding: 15px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 1.1em;
+    margin-bottom: 12px;
+}
+
+h2{
+    background: linear-gradient(to right , yellow , orange , red, orange , yellow);
+    color: yellow;
+    padding: 15px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 1.1em;
+    margin-bottom: 12px;
+}
+
+.pass-md{
+    background: linear-gradient(to right  , orange , red);
+    color: yellow;
+    text-decoration: none;
+    padding: 7px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.6s ease;
+    font-size: 0.8em;
+}
+
+.pass-md:hover{
+    font-size: 1em;
+    color: white;
+
+}
+
+#lang-chse{
+    background: linear-gradient(to right , orange , red);
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.6s ease;
+    font-size: 0.8em;
+    border: none;
+    outline: none;
+}
+
+#credits-text{
+    margin-top: 80px;
+}
+
+option{
+    color: yellow;
+    background-color: red;
+
+}
+
+.unselectable {
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+  }
+  

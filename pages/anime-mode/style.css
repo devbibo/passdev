@@ -1,0 +1,172 @@
+*{
+    font-family: 'montserrat';
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+body{
+    background-image: linear-gradient(to left , blue , purple , blue);
+    color: #fff;
+}
+
+#pass-text-logo{
+    width: 375px;
+    margin-top: 95px;
+    margin-bottom: 20px;
+
+}
+
+.a{
+    display: inline-block;
+    color: rgb(97, 20, 97);
+    background: rgb(229, 209, 248);
+    border: 1px solid transparent;
+    padding: 12px 18px;
+    line-height: 1.4;
+    font-size: 0.8em;
+    font-weight: 700;
+    border-radius: 30px;
+    transition: 0.7s ease;
+}
+
+.a:hover{
+    background: rgba(0, 0, 255, 0.301);
+    border: 2px solid rgb(229, 209, 248);
+    color: rgb(229, 209, 248);
+}
+
+#idea{
+    font-weight: 900;
+    padding: 30px;
+    background-color: rgb(229, 209, 248);
+    color:  rgb(97, 20, 97);
+    margin-top: 20px;
+}
+
+
+h2{
+    font-weight: 700;
+    padding: 30px;
+    background-color: rgb(229, 209, 248);
+    color:  rgb(97, 20, 97);
+    margin-top: 20px;
+}
+
+#credits-text{
+    margin-top: 70px;
+}
+
+#isit-link:hover{
+    font-size: 1.2em;
+    color: darkblue;
+}
+
+#isit-link{
+    transition: 0.2s ease;
+    color: rgb(0, 0, 162);
+}
+
+a{
+    text-decoration: none;
+}
+
+#visit-ov{
+    transition: 0.7s ease;
+    color: rgb(152, 28, 14);
+}
+
+#visit-ov:hover{
+    font-size: 1.2em;
+    color: orangered;
+    font-weight: 800;
+}
+
+#pass-number{
+    margin-bottom: 8px;
+}
+
+#desc{
+    font-weight: 900;
+    font-size: 1.2em;
+    margin-bottom: 12px;
+}
+#desc-to{
+    font-weight: 700;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+#lang-chse {
+    margin-top: 35px;
+    border-radius: 30px;
+    padding: 9px 15px;
+    border: none;
+    background-color: rgb(229, 209, 248);
+    color: rgb(97, 20, 97);
+    cursor: pointer;
+
+  }
+
+.pass-md{
+    display: inline-block;
+    color: rgb(97, 20, 97);
+    background: rgb(229, 209, 248);
+    border: 1px solid transparent;
+    padding: 9px 15px;
+    font-size: 0.8em;
+    font-weight: 700;
+    border-radius: 30px;
+    transition: 0.7s ease;
+}
+
+.pass-md:hover{
+    background: rgba(0, 0, 255, 0.301);
+    border: 2px solid rgb(229, 209, 248);
+    color: rgb(229, 209, 248);
+}
+
+
+
+@media (max-width: 290px){
+    #pass-text-logo{
+        width: 230px;
+        margin-bottom: 10px;
+        margin-top: 110px;
+    }
+
+    #desc{
+        font-size: 0.9em;
+        margin-bottom: 6px;
+    }
+
+    .a{
+        padding: 7px 12px;
+        font-size: 0.7em;
+        margin-bottom: 6px;
+    }
+
+    #desc-to{
+        margin-bottom: 10px;
+    }
+
+    #cat3 , #cat4{
+        margin-bottom: 0;
+    }
+
+    #idea{
+        font-size: 0.7em;
+        padding: 15px;
+        margin-top: 8px;
+    }
+
+    h2{
+        font-size: 0.8em;
+        padding: 15px;
+        margin-top: 8px;
+    }
+
+    .smpl-md, #lang-chse{
+        margin-bottom: 6px;
+    }
+}
